@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessControlNotInserted" xml:space="preserve">
+    <value>Ocorreu algum erro com a inserção das informações do controle de acesso no banco de dados. Tente novamente. Se o problema persistir, contate o fornecedor.</value>
+  </data>
+  <data name="AddressBlankFileds" xml:space="preserve">
+    <value>As informações referentes ao endereço parecem incompletas. Deseja prosseguir assim mesmo?</value>
+  </data>
+  <data name="BlankUserEntry" xml:space="preserve">
+    <value>É necessário digitar o Usuário</value>
+  </data>
+  <data name="ColaboratorCorrectlyAdded" xml:space="preserve">
+    <value>O regitro de colaborador foi inserido com sucesso.</value>
+  </data>
+  <data name="ColaboratorNotInserted" xml:space="preserve">
+    <value>Ocorreu algum erro com a inserção do registro do colaborador no banco de dados. Tente novamente. Se o problema persistir, contate o fornecedor.</value>
+  </data>
+  <data name="ColaboratorRegistry" xml:space="preserve">
+    <value>Registro de Colaborador</value>
+  </data>
+  <data name="ControlAccessBlankFields" xml:space="preserve">
+    <value>As informações de usuário e senha parecem incompletas. Deseja prosseguir assim mesmo?</value>
+  </data>
+  <data name="CpfInvalidFormat" xml:space="preserve">
+    <value>O valor digitado para CPF é inválido.</value>
+  </data>
+  <data name="HasAlreadyExistsColaboratorWithCnh" xml:space="preserve">
+    <value>Já existe um colaboratdor cadastrado com esta CNH.</value>
+  </data>
+  <data name="HasAlreadyExistsColaboratorWithCpf" xml:space="preserve">
+    <value>Já existe um colaborador cadastrado com este CPF.</value>
+  </data>
+  <data name="HasAlreadyExistsColaboratorWithCtps" xml:space="preserve">
+    <value>Já esiste um colaborador cadastrado com este CTPS.</value>
+  </data>
+  <data name="HasAlreadyExistsColaboratorWithRg" xml:space="preserve">
+    <value>Já existe um colaborador cadastrado com este RG.</value>
+  </data>
+  <data name="IncorrectInformation" xml:space="preserve">
+    <value>Informação Incorreta</value>
+  </data>
+  <data name="IncorrectPassword" xml:space="preserve">
+    <value>Senha incorreta</value>
+  </data>
+  <data name="InvalidFormatInformation" xml:space="preserve">
+    <value>Algumas informações possuem dados com formato inválido. Verifique os campos destacados em vermelho.</value>
+  </data>
+  <data name="NotAllowedBlankFileds" xml:space="preserve">
+    <value>Alguns campos não podem ficar em branco. Verifique os campos destacados em vermelho.</value>
+  </data>
+  <data name="NotChosenAllowedModules" xml:space="preserve">
+    <value>Não foi escolhido nenhum módulo de acesso para o colaborador. Deseja prosseguir assim mesmo?</value>
+  </data>
+  <data name="UserAlreadyExists" xml:space="preserve">
+    <value>A identificação de usuário já existe. Escolha uma identificação diferente.</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>Usuário não encontrado</value>
+  </data>
+</root>

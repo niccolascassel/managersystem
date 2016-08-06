@@ -1,0 +1,14 @@
+C:\Projetos\SistemaGestao\SistemaGestao\bin\Debug\SistemaGestao.exe.config
+C:\Projetos\SistemaGestao\SistemaGestao\bin\Debug\SistemaGestao.exe
+C:\Projetos\SistemaGestao\SistemaGestao\bin\Debug\SistemaGestao.pdb
+C:\Projetos\SistemaGestao\SistemaGestao\obj\Debug\SistemaGestao.csprojResolveAssemblyReference.cache
+C:\Projetos\SistemaGestao\SistemaGestao\obj\Debug\MainWindow.g.cs
+C:\Projetos\SistemaGestao\SistemaGestao\obj\Debug\App.g.cs
+C:\Projetos\SistemaGestao\SistemaGestao\obj\Debug\SistemaGestao_MarkupCompile.cache
+C:\Projetos\SistemaGestao\SistemaGestao\obj\Debug\SistemaGestao_MarkupCompile.lref
+C:\Projetos\SistemaGestao\SistemaGestao\obj\Debug\MainWindow.baml
+C:\Projetos\SistemaGestao\SistemaGestao\obj\Debug\SistemaGestao.g.resources
+C:\Projetos\SistemaGestao\SistemaGestao\obj\Debug\SistemaGestao.Properties.Resources.resources
+C:\Projetos\SistemaGestao\SistemaGestao\obj\Debug\SistemaGestao.csproj.GenerateResource.Cache
+C:\Projetos\SistemaGestao\SistemaGestao\obj\Debug\SistemaGestao.exe
+C:\Projetos\SistemaGestao\SistemaGestao\obj\Debug\SistemaGestao.pdb

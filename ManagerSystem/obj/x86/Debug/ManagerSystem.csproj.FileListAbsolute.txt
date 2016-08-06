@@ -1,0 +1,27 @@
+C:\Projetos\SistemaGestao\SistemaGestao\bin\x86\Debug\ManagerSystem.exe.config
+C:\Projetos\SistemaGestao\SistemaGestao\bin\x86\Debug\ManagerSystem.exe
+C:\Projetos\SistemaGestao\SistemaGestao\bin\x86\Debug\ManagerSystem.pdb
+C:\Projetos\SistemaGestao\SistemaGestao\bin\x86\Debug\Npgsql.dll
+C:\Projetos\SistemaGestao\SistemaGestao\bin\x86\Debug\Xceed.Wpf.Toolkit.dll
+C:\Projetos\SistemaGestao\SistemaGestao\bin\x86\Debug\Npgsql.xml
+C:\Projetos\SistemaGestao\SistemaGestao\obj\x86\Debug\ManagerSystem.csprojResolveAssemblyReference.cache
+C:\Projetos\SistemaGestao\SistemaGestao\obj\x86\Debug\ColaboratorRegistration.g.cs
+C:\Projetos\SistemaGestao\SistemaGestao\obj\x86\Debug\Login.g.cs
+C:\Projetos\SistemaGestao\SistemaGestao\obj\x86\Debug\App.g.cs
+C:\Projetos\SistemaGestao\SistemaGestao\obj\x86\Debug\ManagerSystem_MarkupCompile.cache
+C:\Projetos\SistemaGestao\SistemaGestao\obj\x86\Debug\ManagerSystem_MarkupCompile.lref
+C:\Projetos\SistemaGestao\SistemaGestao\obj\x86\Debug\ColaboratorRegistration.baml
+C:\Projetos\SistemaGestao\SistemaGestao\obj\x86\Debug\Login.baml
+C:\Projetos\SistemaGestao\SistemaGestao\obj\x86\Debug\ManagerSystem.g.resources
+C:\Projetos\SistemaGestao\SistemaGestao\obj\x86\Debug\ManagerSystem.Database.DbStrings.resources
+C:\Projetos\SistemaGestao\SistemaGestao\obj\x86\Debug\ManagerSystem.Properties.Messages.resources
+C:\Projetos\SistemaGestao\SistemaGestao\obj\x86\Debug\ManagerSystem.Properties.Strings.resources
+C:\Projetos\SistemaGestao\SistemaGestao\obj\x86\Debug\ManagerSystem.csproj.GenerateResource.Cache
+C:\Projetos\SistemaGestao\SistemaGestao\obj\x86\Debug\ManagerSystem.exe
+C:\Projetos\SistemaGestao\SistemaGestao\obj\x86\Debug\ManagerSystem.pdb
+C:\Projetos\SistemaGestao\ManagerSystem\bin\x86\Debug\ManagerSystem.exe.config
+C:\Projetos\SistemaGestao\ManagerSystem\obj\x86\Debug\ManagerSystem.exe
+C:\Projetos\SistemaGestao\ManagerSystem\obj\x86\Debug\ManagerSystem.pdb
+C:\Projetos\Manager System\ManagerSystem\bin\x86\Debug\ManagerSystem.exe.config
+C:\Projetos\Manager System\ManagerSystem\obj\x86\Debug\ManagerSystem.exe
+C:\Projetos\Manager System\ManagerSystem\obj\x86\Debug\ManagerSystem.pdb

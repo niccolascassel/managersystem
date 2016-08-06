@@ -1,0 +1,55 @@
+﻿<Window x:Class="ManagerSystem.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:p="clr-namespace:ManagerSystem.Properties"
+        xmlns:local="clr-namespace:ManagerSystem"
+        mc:Ignorable="d"
+        Title="{x:Static p:Strings.LoginScreenTitle}" Height="350" Width="525" WindowStyle="None" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100*" />
+            <RowDefinition Height="250*" />
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Name="screenName" Content="{x:Static p:Strings.LoginScreenTitle}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50*" />
+                <RowDefinition Height="40*" />
+                <RowDefinition Height="10*" />
+                <RowDefinition Height="40*" />
+                <RowDefinition Height="40*" />
+                <RowDefinition Height="20*" />
+                <RowDefinition Height="40*" />
+                <RowDefinition Height="10*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="195*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="150*"/>
+                <ColumnDefinition Width="15*"/>
+                <ColumnDefinition Width="150*"/>
+                <ColumnDefinition Width="10*"/>
+            </Grid.ColumnDefinitions>
+
+            <!--Entrada de Usuário-->
+            <Label Grid.Row="1" Grid.Column="0" Name="userLabel" Content="{x:Static p:Strings.UserLabel}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="20" HorizontalContentAlignment="Right" VerticalContentAlignment="Center"/>
+            <TextBox Grid.Row="1" Grid.Column="2" Name="userEntry" HorizontalAlignment="Stretch" VerticalAlignment="Center" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" KeyDown="userEntry_KeyDown" />
+
+            <!--Entrada de Senha-->
+            <Label Grid.Row="3" Grid.Column="0" Name="passLabel" Content="{x:Static p:Strings.PasswordLabel}" HorizontalAlignment="Stretch" VerticalAlignment="Top" FontSize="20" HorizontalContentAlignment="Right" VerticalContentAlignment="Center"/>
+            <PasswordBox Grid.Row="3" Grid.Column="2" Name="passEntry" HorizontalAlignment="Stretch" VerticalAlignment="Center" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" KeyDown="passEntry_KeyDown" PasswordChar="*"/>
+
+            <Label Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="5" Name="loginMessage" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="15" Foreground="Red" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Visibility="Hidden"/>
+
+            <!--Botão OK-->
+            <Button Grid.Row="6" Grid.Column="2" Name="okBtn" Content="{x:Static p:Strings.OkButton}" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="okBtn_Click" />
+
+            <!--Botão Cancelar-->
+            <Button Grid.Row="6" Grid.Column="4" Name="cancelBtn" Content="{x:Static p:Strings.CancelButton}" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="cancelBtn_Click" />
+        </Grid>
+    </Grid>
+</Window>
